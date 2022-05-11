@@ -10,10 +10,11 @@ const baseUri = "ipfs://NewUriToReplace";
 
 const layerConfigurations = [
   {
-    growEditionSizeTo: 9,
+    growEditionSizeTo: 5,
     layersOrder: [
       { name: "Background" },
       { name: "Ball" },
+      { name: "Male" },
     ],
   },
 ];
@@ -23,8 +24,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 2560,
-  height: 640,
+  width: 350,
+  height: 50,
 };
 
 const background = {
